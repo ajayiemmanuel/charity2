@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+{% load static %}
+{%  block content %}
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>THE CHINEDU OKOLI FOUNDATION</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="shortcut icon" href="{% static 'images/give.png' %}">
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'> -->
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="{% static 'css/animate.css' %}">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="{% static 'css/icomoon.css' %}">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+	<!-- Superfish -->
+	<link rel="stylesheet" href="{% static 'css/superfish.css' %}">
+
+	<link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+
+	<!-- Modernizr JS -->
+	<script src="{% static 'js/modernizr-2.6.2.min.js' %}"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+	</head>
+	<body>
+		<div id="fh5co-wrapper">
+		<div id="fh5co-page">
+		<div class="header-top">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-sm-6 text-left fh5co-link">
+						<a href="{% url 'faq' %}">FAQ</a>
+						<a href="{% url 'terms' %}">Forum</a>
+						<a href="{% url 'contact' %}">Contact</a>
+					</div>
+					<div class="col-md-6 col-sm-6 text-right fh5co-social">
+						<a href="#" class="grow"><i class="icon-facebook2"></i></a>
+						<a href="#" class="grow"><i class="icon-instagram2"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<header id="fh5co-header-section" class="sticky-banner">
+			<div class="container">
+				<div class="nav-header">
+					<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle dark"><i></i></a>
+					<h1 id="fh5co-logo"><a href="{% url 'index' %}"><img src="{% static 'images/aaa.png' %}" class="img-responsive"></a></h1>
+					<!-- START #fh5co-menu-wrap -->
+					<nav id="fh5co-menu-wrap" role="navigation">
+						<ul class="sf-menu" id="fh5co-primary-menu">
+							<li>
+								<a href="{% url 'index' %}">Home</a>
+							</li>
+							<li>
+								<a href="#" class="fh5co-sub-ddown">Get Involved</a>
+								<ul class="fh5co-sub-menu">
+									<li><a href="{% url 'support' %}">Donate</a></li>
+									<li><a href="{% url 'fundraiser' %}">Fundraise</a></li>
+								</ul>
+							</li>
+							<li class="active"><a href="{% url 'about' %}">About</a></li>
+							<li><a href="{% url 'blog' %}">Blog</a></li>
+							<li><a href="{% url 'contact' %}">Contact</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+		
+		
+
+		<div class="fh5co-hero">
+			<div class="fh5co-overlay"></div>
+			<div class="fh5co-cover text-center" data-stellar-background-ratio="0.5" style="background-image: url('{% static 'images/bg2.jpg' %}');">
+				<div class="desc animate-box">
+					<h2>We Are <strong>Non-profit</strong></h2>
+					<span><a class="btn btn-primary btn-lg" href="{% url 'support' %}">Donate Now</a></span>
+				</div>
+			</div>
+
+		</div>
+		
+		<div id="fh5co-feature-product" class="fh5co-section-gray">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 text-center heading-section">
+						<h3>How we started.</h3>
+						<p>The Global Giving foundation was founded in February 2015 and carries out a mission to provide health care and education assistance to the most needy in the United States, India and Africans.</p>
+					</div>
+				</div>
+
+				<div class="row row-bottom-padded-md">
+					<div class="col-md-12 text-center animate-box">
+						<p><img src="{% static 'images/person1.jpg' %}"  class="img-responsive"></p>
+					</div>
+					<div class="col-md-6 text-center animate-box">
+						<p><img src="{% static 'images/cover_bg_32.jpg' %}"  class="img-responsive"></p>
+					</div>
+					<div class="col-md-6 text-center animate-box">
+						<p><img src="{% static 'images/cover_bg_33.jpg' %}"  class="img-responsive"></p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4">
+						<div class="feature-text">
+							<h3>Love</h3>
+							<p>We spread love everywhere we go, By supporting the less privileges around the world.</p>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="feature-text">
+							<h3>Compassion</h3>
+							<p>We make a living from what we get, But we make a life by what we give.</p>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="feature-text">
+							<h3>Charity</h3>
+							<p>We Donate to the country and people who are poor or ill so they can leave.</p>
+						</div>
+					</div>
+				</div>
+
+				
+			</div>
+		</div>
+
+		
+		<div id="fh5co-portfolio">
+			<div class="container">
+
+				<div class="row">
+					<div class="col-md-6 col-md-offset-3 text-center heading-section animate-box">
+						<h3>Our Gallery</h3>
+						<p>We donate to the people who are in need of help in the word.</p>
+					</div>
+				</div>
+
+				
+				<div class="row row-bottom-padded-md">
+					<div class="col-md-12">
+						<ul id="fh5co-portfolio-list">
+
+							<li class="two-third animate-box" data-animate-effect="fadeIn" style="background-image: url({% static 'images/giving.jpg' %}); ">
+								<a href="#" class="color-3">
+									<div class="case-studies-summary">
+										<span>Give Love</span>
+										<h2>Donation is caring</h2>
+									</div>
+								</a>
+							</li>
+						
+							<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url({% static 'images/giving2.jpg' %}); ">
+								<a href="#" class="color-4">
+									<div class="case-studies-summary">
+										<span>Give Love</span>
+										<h2>Donation is caring</h2>
+									</div>
+								</a>
+							</li>
+
+							<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url({% static 'images/giving3.jpg' %}); "> 
+								<a href="#" class="color-5">
+									<div class="case-studies-summary">
+										<span>Give Love</span>
+										<h2>Donation is caring</h2>
+									</div>
+								</a>
+							</li>
+							<li class="two-third animate-box" data-animate-effect="fadeIn" style="background-image: url({% static 'images/giving4.jpg' %}); ">
+								<a href="#" class="color-6">
+									<div class="case-studies-summary">
+										<span>Give Love</span>
+										<h2>Donation is caring</h2>
+									</div>
+								</a>
+							</li>
+						</ul>		
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-4 col-md-offset-4 text-center animate-box">
+						<a href="{% url 'gallery' %}" class="btn btn-primary btn-lg">See Gallery</a>
+					</div>
+				</div>
+
+				
+			</div>
+		</div>
+		
+
+		
+		<div id="fh5co-content-section" class="fh5co-section-gray">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">
+						<h3>Leadership</h3>
+						<p>These are the founders who are dedicated to make the word a better place by donating to the poor so they live and have a good life.</p>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<div class="fh5co-team text-center animate-box">
+							<figure>
+								<img src="{% static 'images/flavour.jpg' %}" alt="user">
+							</figure>
+							<div>
+								<h3>Chinedu Okoli</h3>
+								<p><span>Founder</span></p>
+								<p>Chinedu Okoli is the Founder and President of The Chinedu Okoli Foundation. Born in Enugu, hailing from Anambra State, Chinedu Okoli popularly known as Flavour N’abania or more recently, the ‘Flavour of Africa’ is recognized as Africa’s Highlife King. Having captivated audiences with his unique and eclectic sound, Flavour has set the standard in his field and still has a lot more to offer.
+
+									Established in 2010 and based in Lagos, Nigeria, The Chinedu Okoli Foundation aims to provide young people with the chance to experience the impact of music through education and empowerment.
+									
+									As a United Nations Peace Ambassador, non-profit leader, musician and mentor, Chinedu Okoli has been serving individuals and families living in poverty in Nigeria, Liberia, and other parts of Africa since 2010.
+									
+									Chinedu Okoli continues to leverage his global philanthropic experiences and grassroots efforts, in order to advance economic mobility throughout Africa. As President of The Chinedu Okoli Foundation, he is fulfilling his passion for empowering underserved individuals to overcome poverty and fulfill their economic potential. He achieves this by combining his passion for music and genuine love for humanity.
+									
+									Simply put, Chinedu Okoli believes that “CHARITY BEGINS AT HOME” and this is seen through the tireless efforts that The Chinedu Okoli Foundation is committed to throughout Africa. </p>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<!-- fh5co-content-section -->
+
+		
+		<footer>
+			<div id="footer">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 text-center">
+							<p class="fh5co-social-icons">
+								<a href="#"><i class="icon-facebook2"></i></a>
+								<a href="#"><i class="icon-instagram"></i></a>
+							</p>
+							<p>Copyright &copy; 2015-2024   All Rights Reserved.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	
+
+	</div>
+	<!-- END fh5co-page -->
+
+	</div>
+	<!-- END fh5co-wrapper -->
+
+	<!-- jQuery -->
+
+
+	<script src="{% static 'js/jquery.min.js' %}"></script>
+	<!-- jQuery Easing -->
+	<script src="{% static 'js/jquery.easing.1.3.js' %}"></script>
+	<!-- Bootstrap -->
+	<script src="{% static 'js/bootstrap.min.js' %}"></script>
+	<!-- Waypoints -->
+	<script src="{% static 'js/jquery.waypoints.min.js' %}"></script>
+	<script src="{% static 'js/sticky.js' %}"></script>
+
+	<!-- Stellar -->
+	<script src="{% static 'js/jquery.stellar.min.js' %}"></script>
+	<!-- Superfish -->
+	<script src="{% static 'js/hoverIntent.js' %}"></script>
+	<script src="{% static 'js/superfish.js' %}"></script>
+	
+	<!-- Main JS -->
+	<script src="{% static 'js/main.js' %}"></script>
+
+	</body>
+
+{%  endblock content %}
+</html>
+

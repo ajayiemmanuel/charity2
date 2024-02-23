@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+{% load static %}
+{%  block content %}
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>THE CHINEDU OKOLI FOUNDATION</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+  	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="shortcut icon" href="{% static 'images/give.png' %}">
+		
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="{% static 'css/animate.css' %}">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="{% static 'css/icomoon.css' %}">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+	<!-- Superfish -->
+	<link rel="stylesheet" href="{% static 'css/superfish.css' %}">
+
+	<link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+
+	<!-- Modernizr JS -->
+	<script src="{% static 'js/modernizr-2.6.2.min.js' %}"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+	</head>
+	<body>
+		<div id="fh5co-wrapper">
+		<div id="fh5co-page">
+		<div class="header-top">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-sm-6 text-left fh5co-link">
+						<a href="{% url 'faq' %}">FAQ</a>
+						<a href="{% url 'terms' %}">Forum</a>
+						<a href="{% url 'contact' %}">Contact</a>
+					</div>
+					<div class="col-md-6 col-sm-6 text-right fh5co-social">
+						<a href="#" class="grow"><i class="icon-facebook2"></i></a>
+						<a href="#" class="grow"><i class="icon-instagram2"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<header id="fh5co-header-section" class="sticky-banner">
+			<div class="container">
+				<div class="nav-header">
+					<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle dark"><i></i></a>
+					<h1 id="fh5co-logo"><a href="{% url 'index' %}"><img src="{% static 'images/aaa.png' %}" class="img-responsive"></a></h1>
+					<!-- START #fh5co-menu-wrap -->
+					<nav id="fh5co-menu-wrap" role="navigation">
+						<ul class="sf-menu" id="fh5co-primary-menu">
+							<li>
+								<a href="{% url 'index' %}">Home</a>
+							</li>
+							<li>
+								<a href="#" class="fh5co-sub-ddown">Get Involved</a>
+								<ul class="fh5co-sub-menu">
+									<li><a href="{% url 'support' %}">Donate</a></li>
+									<li><a href="{% url 'fundraiser' %}">Fundraise</a></li>
+								</ul>
+							</li>
+							<li>
+							<li><a href="{% url 'about' %}">About</a></li>
+							<li class="active"><a href="{% url 'blog' %}">Blog</a></li>
+							<li><a href="{% url 'contact' %}">Contact</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+		
+		
+
+		<div class="fh5co-hero">
+			<div class="fh5co-overlay"></div>
+			<div class="fh5co-cover text-center" data-stellar-background-ratio="0.5" style="background-image: url('{% static 'images/bg3.jpg' %}');">
+				<div class="desc animate-box">
+					<h2>Our <strong>Blog &amp; News</strong></h2>
+					<span><a class="btn btn-primary btn-lg" href="{% url 'support' %}">Donate Now</a></span>
+				</div>
+			</div>
+
+		</div>
+		
+		<div id="fh5co-blog-section" class="fh5co-section-gray">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">
+						<h3>Read. Learn. Share</h3>
+					</div>
+				</div>
+			</div>
+					<div class="clearfix visible-sm-block"></div>
+					<div class="col-lg-4 col-md-4 col-sm-6">
+						<div class="fh5co-blog animate-box">
+							<a href="#"><img class="img-responsive" src="{% static 'images/blog1.jpeg' %}" alt=""></a>
+							<div class="blog-text">
+								<div class="prod-title">
+									<h3><a href=""#>THE CHINEDU OKOLI FOUNDATION X TIS FOUNDATION’S 25TH ANNIVERSARY GALA</a></h3>
+									<span class="posted_by">JUN. 19th</span>
+									<p>On Thursday, June 6, 2019, Chinedu Okoli of The Chinedu Okoli Foundation attended the 25th Anniversary Gala of the TIS Foundation (To Inspire Strong Families & Communities) at the Marriott Marquis in Washington D.C.
+
+										This year’s 25th Anniversary Gala celebrated 25 years community assistance by the TIS Foundation. The event honored the brilliance, fortitude, and power of female leaders and celebrated a quarter of a center in benefiting the community at large through food drives, workforce development programs, scholarship funds and more. TIS Foundation showcased esteemed guests and performers on the stage including a special musical performance by international recording artist Chinedu Okoli, popularly known as Flavour, who was joined by his special guest and protege Semah G. Weifur.
+										
+										This year, because of the generous support from the D.C. community, TIS Foundation presented Chinedu Okoli and Semah G. Weifur with a large donation to the Christian Association for the Blind in Liberia.
+										
+										The TIS Foundation was founded by Ogechukwu Irono who has a background in molecular biology and a Master’s in Public Administration and in International Community Development. Ending the cycle of poverty in Africa and the local D.C. community is the goal and core of TIS’s mission. TIS aims to revitalize poverty stricken communities through the delivery of essential support services, innovative educational and workforce development programs, and creative entrepreneurship opportunities to high-need families.
+										
+										The event was also attended by guests such as The Honorable Karen Bass (U.S. Representative and Congressional Black Caucus Vice Chair), The Honorable Diane Edith Watson, former U.S. Representative, Kenya Pierce, co-president and COO for Inglot VB, local singer, April Sampe, Miss United States, Andromeda Peters, Real Housewives of Potomac stars Gizelle Bryant and Candiace Dillard.</p>
+								</div>
+							</div> 
+						</div>
+					</div>
+				</div>
+
+
+
+			</div>
+		</div>
+		<!-- fh5co-blog-section -->
+
+		
+		<footer>
+			<div id="footer">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 text-center">
+							<p class="fh5co-social-icons">
+								<a href="#"><i class="icon-facebook2"></i></a>
+								<a href="#"><i class="icon-instagram"></i></a>
+							</p>
+							<p>Copyright &copy; 2015-2024  All Rights Reserved.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	
+
+	</div>
+	<!-- END fh5co-page -->
+
+	</div>
+	<!-- END fh5co-wrapper -->
+
+	<!-- jQuery -->
+
+
+	<script src="{% static 'js/jquery.min.js' %}"></script>
+	<!-- jQuery Easing -->
+	<script src="{% static 'js/jquery.easing.1.3.js' %}"></script>
+	<!-- Bootstrap -->
+	<script src="{% static 'js/bootstrap.min.js' %}"></script>
+	<!-- Waypoints -->
+	<script src="{% static 'js/jquery.waypoints.min.js' %}"></script>
+	<script src="{% static 'js/sticky.js' %}"></script>
+
+	<!-- Stellar -->
+	<script src="{% static 'js/jquery.stellar.min.js' %}"></script>
+	<!-- Superfish -->
+	<script src="{% static 'js/hoverIntent.js' %}"></script>
+	<script src="{% static 'js/superfish.js' %}"></script>
+	
+	<!-- Main JS -->
+	<script src="{% static 'js/main.js' %}"></script>
+
+	</body>
+
+{%  endblock content %}
+</html>
+

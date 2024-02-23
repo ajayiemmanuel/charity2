@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+{% load static %}
+{%  block content %}
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>THE CHINEDU OKOLI FOUNDATION</title>
+  <link rel="stylesheet" href="{% static 'css/loading.css' %}">
+  <link rel="stylesheet" href="{% static 'css/thank.css' %}">
+
+  
+	<link rel="shortcut icon" href="{% static 'images/give.png' %}">
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+  <body>
+    
+<div class="loader_bg">
+  <div class="loader"><img src="{% static 'images/loading.gif' %}" alt="" /></div>
+</div>
+
+  <div id="particles-js"></div>
+
+<div class="thank-you-container">
+<div class="thank-you-box">
+  <h1>Thank you!</h1>
+  <p class="lead">for supporting us</p>
+  <p>You should be recieving an automated email right about *now* to confirm your payment. Then if not recived contact us on "" for more information!</p>
+  <p class="signature">♥️ Chinedu Okoli</p>
+</div>
+<a class="return-black" href="{% url 'index' %}">Return to Website</a>
+</div>
+</body>
+  <html>
+<!-- partial -->
+  <script  src="{% static 'js/script.js' %}"></script>
+  <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script src='https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js'></script>
+  <script src="{% static 'js/jquery1.min.js' %}"></script>
+  <script src="{% static 'js/loading.js' %}"></script>
+  <script src="{% static 'js/thank.js' %}"></script>
+</body>
+
+{%  endblock content %}
+</html>
